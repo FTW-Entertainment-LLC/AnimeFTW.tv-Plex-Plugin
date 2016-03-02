@@ -12,10 +12,6 @@ REMEMBER = '&remember=true'
 ###################################################################################################
 def Start():
 	
-	plugin.AddViewGroup('InfoList2', viewMode='InfoList', mediaType='items')
-	plugin.AddViewGroup('List', viewMode='List', mediaType='Items')
-	Plugin.AddViewGroup('InfoList', viewMode='InfoList', mediaType='video')
-
 	# set default title for the plugin
 	ObjectContainer.title1 = TITLE
 	ObjectContainer.art = R(ART)
@@ -61,7 +57,7 @@ def LatestMenu(count):
 		token = Dict['token']
 
 	# Create list of shows available to be viewed
-	oc = ObjectContainer(view_group="InfoList")
+	oc = ObjectContainer()
 	oc.title1 = ("Latest...")
 	
 	# send request to validate credentials
@@ -137,7 +133,7 @@ def SeriesMenu():
 		token = Dict['token']
 
 	# Create list of shows available to be viewed
-	oc = ObjectContainer(view_group="InfoList2")
+	oc = ObjectContainer()
 	oc.title1 = L("BrowseSeries")
 
 	# send request to validate credentials
