@@ -1,5 +1,6 @@
 {
 	"BrowseSeries" : "Browse Series",
 	"BrowseMovies" : "Browse Movies",
+	"Preferences" : "Preferences",
 	"AuthenticationError" : "Unable to authenticate the supplied username and/or password at the server. Please check your settings"
 }
