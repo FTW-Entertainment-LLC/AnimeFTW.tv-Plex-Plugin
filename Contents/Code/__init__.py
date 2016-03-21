@@ -203,10 +203,10 @@ def WatchListMenu():
     json_url = BASEURL + "&token=" + token + "&action=display-watchlist&count=500"
     watchlistListing = JSON.ObjectFromURL(json_url)
     
-    for entry in watchlistListing["results"]:
+    #for entry in watchlistListing["results"]:
     
-        oc.add(TVShowObject (
-            key=Callback(EpisodeMenu, token=token, seriesId=entry["sid"],
+    #    oc.add(TVShowObject (
+    #        key=Callback(EpisodeMenu, token=token, seriesId=entry["sid"],
       #"id": "331",
       #"date": "1342363978",
       #"update": "1349179557",
