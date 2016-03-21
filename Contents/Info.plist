@@ -3,7 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>CFBundleIdentifier</key>
-			<string>com.plexapp.plugins.animeftw</string>
+			<string>com.plexapp.plugins.animeftwtv</string>
 		<key>PlexFrameworkVersion</key>
 			<string>2</string>
 	</dict>
