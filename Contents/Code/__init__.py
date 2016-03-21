@@ -34,8 +34,8 @@ def Start():
 @handler(PREFIX, TITLE, thumb=ICON, art=ART)
 def MainMenu():
 
-    oc = ObjectContainer(no_cache = True)
     if not Prefs['username'] or not Prefs['password']:
+        oc = ObjectContainer(no_cache = True)
         Log.Error("animeftwtv.bundle ----> No username and password, showing preferences")
         oc.add(PrefsObject(title=L('Preferences')))
         return oc
