@@ -187,7 +187,7 @@ def SeriesMenu():
     return oc
 
 ###################################################################################################
-@route(PREFIX + '/watchlist', L("ViewWatchList"))
+@route(PREFIX + '/watchlist', L("MyWatchList"))
 def WatchListMenu():
 
     if 'token' not in Dict:
@@ -197,7 +197,7 @@ def WatchListMenu():
     
     # Create the list of WatchList entries for the user.
     oc = ObjectContainer()
-    oc.title1 = L("ViewWatchList")
+    oc.title1 = L("MyWatchList")
     
     # send request to get data.
     json_url = BASEURL + "&token=" + token + "&action=display-watchlist&count=500"
