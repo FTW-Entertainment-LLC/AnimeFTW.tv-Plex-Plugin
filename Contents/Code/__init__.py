@@ -45,27 +45,27 @@ def MainMenu():
             DirectoryObject(
                 key      = Callback(WatchListMenu, title=L('MyWatchList')),
                 title    = L('MyWatchList'),
-                summary  = ('View all of the series in your My WatchList.')
+                summary  = L('View all of the series in your My WatchList.')
             ),
             DirectoryObject(
-                key      = Callback(LatestMenu, title=('Latest Episodes...'), url=PREFIX + '/latest'),
-                title    = ('Latest Episodes...'),
-                summary  = ('View all of the latest Episodes added to the Site.')
+                key      = Callback(LatestMenu, title=L('LatestEpisodes'), url=PREFIX + '/latest'),
+                title    = L('LatestEpisodes'),
+                summary  = L('View all of the latest Episodes added to the Site.')
             ),
             DirectoryObject(
-                key      = Callback(LatestSeriesMenu, title=('Newest Series...'), url=PREFIX + '/latest-series'),
-                title    = ('Newest Series...'),
-                summary  = ('View all of the latest Series added to the Site.')
+                key      = Callback(LatestSeriesMenu, title=L('Newest Series...'), url=PREFIX + '/latest-series'),
+                title    = L('Newest Series...'),
+                summary  = L('View all of the latest Series added to the Site.')
             ),
             DirectoryObject(
                 key      = Callback(SeriesMenu, title=L('BrowseSeries'), url=PREFIX + '/series'),
                 title    = L('BrowseSeries'),
-                summary  = ('Browse all Series.')
+                summary  = L('Browse all Series.')
             ),
             DirectoryObject(
                 key      = Callback(MoviesMenu, title=L('BrowseMovies'), url=PREFIX + '/movies'),
                 title    = L('BrowseMovies'),
-                summary  = ('Browse all Movies.')
+                summary  = L('Browse all Movies.')
             ),
             PrefsObject(
                 title    = L('Preferences'),

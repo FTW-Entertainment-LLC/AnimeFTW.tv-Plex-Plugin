@@ -3,5 +3,12 @@
 	"BrowseMovies" : "Browse Movies",
 	"MyWatchList" : "My WatchList",
 	"Preferences" : "Preferences",
+    "LatestEpisodes" : "LatestEpisodes...",
+    "View all of the latest Series added to the Site." : "View all of the latest Series added to the Site.",
+    "Newest Series..." : "Newest Series...",
+    "View all of the series in your My WatchList." : "View all of the series in your My WatchList."
+    "Browse all Series." : "Browse all Series.",
+    "Browse all Movies." : "Browse all Movies.",
+    "View all of the latest Episodes added to the Site." : "View all of the latest Episodes added to the Site.",
 	"AuthenticationError" : "Unable to authenticate the supplied username and/or password at the server. Please check your settings"
 }
