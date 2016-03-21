@@ -1,5 +1,5 @@
 
-TITLE = 'AnimeFTWtv'
+TITLE = 'AnimeFTW.tv'
 PREFIX = '/video/animeftwtv'
 
 ART = 'art-default.png'
@@ -36,7 +36,7 @@ def MainMenu():
 
     oc = ObjectContainer(no_cache = True)
     if not Prefs['username'] or not Prefs['password']:
-        Log.Error("animeftw.bundle ----> No username and password, showing preferences")
+        Log.Error("animeftwtv.bundle ----> No username and password, showing preferences")
         oc.add(PrefsObject(title=L('Preferences')))
         return oc
     else:
