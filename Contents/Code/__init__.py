@@ -1,5 +1,5 @@
 
-TITLE = 'AnimeFTW.tv'
+TITLE = 'AnimeFTWtv'
 PREFIX = '/video/animeftwtv'
 
 ART = 'art-default.png'
